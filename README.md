@@ -1,3 +1,5 @@
+![Build & Test workflow](https://github.com/Jacques-Philippe/ts-next-template/actions/workflows/test-and-build.yml/badge.svg)
+
 # Purpose
 This is a template for Next TypeScript projects.
 
