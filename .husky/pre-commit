@@ -1,0 +1,11 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# if there are unstaged ts files prevent the commit
+# if there are untracked ts files prevent the commit
+# run tests
+yarn test
+# lint
+yarn lint-staged
+# Build
+yarn build
